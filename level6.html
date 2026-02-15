@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="level6.css">
+</head>
+<body>
+<div class="card mx-auto mt-5" id="main_card" style="width: 30rem;">
+  <div class="card-body">
+    <span class="badge text-bg-primary" input type="text" id="currlevel">Level 6</span>
+    <h2 class="">Conditionals: Pick the Correct Door</h2>
+    <p class="card-text">Click a door. Only one is correct.</p>
+        <div class="my-3" id="buttons">
+        <button class="btn btn-danger mx-2 w-25" id="door1" onclick="check(1)">Door 1</button>
+        <button class="btn btn-warning mx-2 w-25" id="door2" onclick="check(2)">Door 2</button>
+        <button class="btn btn-success mx-2 w-25" id="door3" onclick="check(3)">Door 3</button>
+    </div>
+    <div id="result" class="alert alert-secondary mt-3 mb-0">Choose a door to see the result</div>
+ <hr>
+    <div class="text-center">
+        <a href="level5.html" class="btn btn-dark col-3 ">Back</a>
+        <a href="level1.html" class="btn btn-primary col-3">Restart</a>
+    </div>
+  </div>
+</div>
+    <script src="level6.js"></script>
+</body>
+</html>
